@@ -1,0 +1,219 @@
+h1 {
+  font-family: 'Libre Caslon Display';
+  font-weight: bold;
+}
+.navbar {
+  background-color: rgba(254, 238, 219);
+}
+
+.navbar-brand {
+  font-family: 'Red Hat Display';
+  color: black;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding-right: 10px;
+}
+
+.nav-link {
+  font-family:'Thasadith';
+  color: black;
+  font-size: 1rem;
+}
+
+.navbar-nav {
+  color: white;
+  font-size: large;
+}
+
+/* added this to make the navbar toggler cleaner */
+.navbar-toggler, .navbar-toggler:active, .navbar-toggler:focus {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+
+.alert {
+  background-color: black;
+  font-family: 'Thasadith';
+  color: white;
+  border-radius: 0;
+  margin: 0;
+}
+
+.alert a {
+  color:white
+}
+
+.form-control {
+  width:min-content
+}
+
+#cta {
+  background-color: rgb(135, 75, 75);
+  font-family: 'Libre Caslon Display';
+  color: white;
+  width: 60%;
+  top: 8%;
+  left: 21%;
+  opacity: 0.9;
+}
+
+.lead {
+  font-family: 'Thasadith';
+}
+
+#cta button {
+  background-color: rgb(255, 208, 0);
+  width: 200px;
+  border-radius: 20px;
+  font-family: "Thasadith";
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 10px;
+  color: black;
+}
+
+.testimonial-title {
+  font-family: 'Libre Caslon Display';
+}
+
+.praise-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.praise {
+  font-size: 21px;
+  font-style: italic;
+  margin-bottom: 2px;
+}
+
+#testimonial {
+  font-family: 'Red Hat Display';
+}
+
+#feature-wall {
+  font-family: 'Libre Caslon Display';
+}
+
+footer {
+  font-family: 'Thasadith';
+}
+
+.container-footer {
+  background-color: rgba(254, 238, 219, 0.516);
+}
+
+.contact-us {
+  font-family: 'Libre Caslon Display';
+  font-size: 25px;
+  color: black;
+}
+
+.social-media {
+  color:grey
+}
+
+.marketing {
+  font-family: 'Thasadith';
+}
+
+.care-guide {
+  font-family: 'Thasadith';
+}
+
+@media screen and (max-width:767px) {
+  .navbar-brand {
+    font-size: 25px;
+  }
+
+  #cta {
+    width: 100%;
+  }
+
+  #cta > h4 {
+    font-size: 2rem;
+  }
+  
+  .lead {
+    font-family: 'Thasadith';
+    font-size: 1rem;
+  }
+  
+  #cta button {
+    width: 8rem;
+    font-weight: bolder;
+    font-size: small;
+    padding: 10px;
+    color: black;
+  }
+
+  .praise {
+    font-size: 1rem;
+  }
+}
+
+  @media screen and (min-width:768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    #top-wrapper {
+      position: relative;
+    }
+  
+    #cta {
+      position: absolute;
+      top: 25%;
+      right: 1%;
+      opacity: 0.8;
+      border-radius: 25px;
+      font-size: 1rem;
+    }
+  
+    .carousel-item img {
+      max-height: 780px;
+      width: auto;
+    }
+  }
+
+  @media screen and (max-width:540px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+
+    #cta > h4 {
+      font-size: 1.65rem;
+    }
+
+    .alert {
+      font-size: 0.8rem;
+    }
+  }
+
+  @media screen and (max-width:360px) {
+    .navbar-brand {
+      font-size: 1.1rem;
+    }
+
+    .alert {
+      font-size: 0.7rem;
+    }
+
+    .marketing {
+      font-size: 0.7rem;
+    }
+
+    .marketing h2{
+      font-size: 1.2rem;
+    }
+
+    .care-guide {
+      font-size: 0.7rem;
+    }
+
+    .care-guide h2{
+      font-size: 1.2rem;
+    }
+  }
